@@ -1,6 +1,6 @@
-# delivuery
+# DeliVuery
 
-> A delivery system powered with Vue.js
+> A delivery system powered by Vue.js
 
 ## Build Setup
 
