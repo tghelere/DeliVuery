@@ -1,8 +1,32 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.3
+version: v1.13.5
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   SNYK-JS-AXIOS-174505:
     - axios:
         patched: '2019-05-05T22:16:52.562Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - snyk > proxy-agent > https-proxy-agent:
+        patched: '2019-10-17T12:32:54.796Z'
+    - snyk > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2019-10-17T12:32:54.796Z'
+  SNYK-JS-LODASH-450202:
+    - snyk > lodash:
+        patched: '2019-10-17T12:32:54.796Z'
+    - snyk > @snyk/dep-graph > lodash:
+        patched: '2019-10-17T12:32:54.796Z'
+    - snyk > inquirer > lodash:
+        patched: '2019-10-17T12:32:54.796Z'
+    - snyk > @snyk/dep-graph > graphlib > lodash:
+        patched: '2019-10-17T12:32:54.796Z'
+    - snyk > snyk-nuget-plugin > lodash:
+        patched: '2019-10-17T12:32:54.796Z'
+    - snyk > snyk-config > lodash:
+        patched: '2019-10-17T12:32:54.796Z'
+    - snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2019-10-17T12:32:54.796Z'
+    - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        patched: '2019-10-17T12:32:54.796Z'
+    - snyk > snyk-nodejs-lockfile-parser > lodash:
+        patched: '2019-10-17T12:32:54.796Z'
