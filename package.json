@@ -13,7 +13,7 @@
     "prepare": "npm run snyk-protect"
   },
   "dependencies": {
-    "axios": "^0.19.1",
+    "axios": "^0.19.2",
     "bootstrap": "^4.0.0-beta.2",
     "font-awesome": "^4.7.0",
     "lodash": "^4.17.15",
