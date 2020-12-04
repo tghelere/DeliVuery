@@ -20,7 +20,7 @@
     "vue": "^2.6.12",
     "vue-router": "^3.4.8",
     "vuex": "^3.5.1",
-    "snyk": "^1.425.4"
+    "snyk": "^1.426.0"
   },
   "devDependencies": {
     "autoprefixer": "^9.5.1",
