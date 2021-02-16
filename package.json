@@ -19,7 +19,7 @@
     "lodash": "^4.17.20",
     "vue": "^2.6.12",
     "vue-router": "^3.4.8",
-    "vuex": "^3.6.0",
+    "vuex": "^3.6.2",
     "snyk": "^1.437.3"
   },
   "devDependencies": {
